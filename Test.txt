@@ -1,0 +1,24 @@
+package blabla;
+import java.util.*;
+public class övning2 {
+
+String user;
+
+	//public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int age;
+		
+		while(true){
+			System.out.println("enter your age: ");
+			try{
+				age = sc.nextInt();
+				break;
+			}
+	catch(Exception e){
+	System.out.println("program didnt catch, enter age again:");
+	sc.nextLine();
+				}
+			}
+	//	}
+	}
